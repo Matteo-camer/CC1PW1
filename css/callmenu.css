@@ -1,0 +1,54 @@
+body{
+    padding: 60px 45px;
+    margin: 0;
+}
+.premier-titre{
+    margin-top: 300px;
+    margin-bottom: 60px;
+}
+div h1{
+    font-size: 50px;
+    text-align: center;
+    width: 400px;
+}
+
+section{
+    height: 900px;
+}
+section .conteneur{
+    display: flex;
+    align-items: center;
+}
+section .conteneur{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+section .conteneur .message h4{
+    font-size: 40px;
+    margin: 20px;
+}
+section .conteneur .message{
+    width: 300px;
+    text-align: start;
+    padding-left: 150px;
+}
+section .conteneur .message p{
+    font-size: 30px;
+}
+section .conteneur .ballon{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: 20px;
+}
+section .conteneur .color-violet{
+    background: #9b59b6;
+}
+section .conteneur .color-bleu{
+    background: skyblue;
+}
+section .conteneur .color-orange{
+    background: #ff7f50;
+}

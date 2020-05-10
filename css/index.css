@@ -1,0 +1,134 @@
+body{
+    padding: 60px 45px;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .ballon-violet{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #9b59b6;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+header .conteneur-violet{
+    width: 65px;
+    height: 60px;
+    background: #f8c291;
+    border-radius: 50%;
+}
+.premier{
+    margin-top: 300px;
+}
+.premier{
+    width: 500px;
+}
+.premier h1{
+    font-size: 55px;
+    text-align: center;
+}
+.conteneur {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    width: 825px;
+    height: 160px;
+}
+.conteneur .deuxieme{
+    width: 350px;
+}
+.second-titre{
+    font-size: 40px;
+}
+.active{
+    background: #9b59b6;
+    color: white;
+}
+.btn-fb-1{
+    border-radius: 50px;
+    height: 90px;
+    width: 200px;
+    font-size: 25px;
+}
+
+section{
+    display: flex;
+    float: left;
+    width: 825px;
+    height: 500px;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding-top: -15px;
+    
+}
+
+.card{
+    max-width: 300px;
+    min-width: 200px;
+    height: 400px;
+    padding-top: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.cd-1{
+    background: pink;
+}
+.cd-2{
+    background: skyblue;
+}
+.cd-3{
+    background: #ff7f50;
+}
+
+footer{
+    display: flex;
+    float: left;
+    width: 825px;
+    height: 500px ;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+footer .box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 80px;
+    font-size: 24px;
+
+}
+footer .box .ballon{
+    margin: 20px;
+}
+
+footer .box .ballon {
+    width: 54px;
+    height: 54px;
+    border-radius: 30%;
+    background: #fff;
+}
+.third-titre h3{
+    font-size: 35px;
+}
+footer .box h4{
+    width: 150px;
+}
+footer a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 70px;
+}
